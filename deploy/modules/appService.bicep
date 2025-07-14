@@ -50,4 +50,6 @@ resource appServiceApp 'Microsoft.Web/sites@2024-04-01' = {
 }
 
 
+
+
 output appServiceAppHostName string = appServiceApp.properties.defaultHostName
